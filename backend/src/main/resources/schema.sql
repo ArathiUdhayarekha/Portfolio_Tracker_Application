@@ -1,0 +1,7 @@
+CREATE TABLE stock (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    ticker VARCHAR(10) NOT NULL UNIQUE,
+    quantity INT NOT NULL,
+    buy_price DOUBLE NOT NULL
+);
